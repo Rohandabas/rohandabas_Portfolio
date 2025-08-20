@@ -19,17 +19,16 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
             <span className="gradient-text animate-gradient-shift bg-[length:200%_200%]">
-              Your Name
+              Rohan Dabas
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto">
-            Full Stack Developer & UI/UX Designer
+            Full Stack Developer & AI Enthusiast
           </p>
           
           <p className="text-lg text-muted-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, modern web applications with cutting-edge technologies. 
-            Passionate about creating seamless user experiences and writing clean, scalable code.
+            Computer Science Engineering student passionate about building innovative AI-powered solutions and full-stack applications
           </p>
           
           <div className="flex justify-center gap-4 mb-8">
@@ -53,7 +52,7 @@ const Hero = () => {
           
           <div className="flex justify-center gap-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Rohandabas" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass rounded-2xl hover-glow transition-smooth hover:bg-gradient-primary group"
@@ -61,7 +60,7 @@ const Hero = () => {
               <Github className="w-6 h-6 group-hover:text-primary-foreground transition-smooth" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/rohan-dabas1/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass rounded-2xl hover-glow transition-smooth hover:bg-gradient-primary group"
@@ -69,7 +68,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6 group-hover:text-primary-foreground transition-smooth" />
             </a>
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:rohandabas1027@gmail.com" 
               className="p-3 glass rounded-2xl hover-glow transition-smooth hover:bg-gradient-primary group"
             >
               <Mail className="w-6 h-6 group-hover:text-primary-foreground transition-smooth" />

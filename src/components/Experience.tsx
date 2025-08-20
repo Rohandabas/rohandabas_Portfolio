@@ -3,79 +3,41 @@ import { Building2, Calendar, MapPin, Award } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "TechCorp Inc.",
-      position: "Senior Full Stack Developer",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      type: "Full-time",
-      description: [
-        "Led development of a microservices architecture serving 100K+ daily active users",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Mentored junior developers and conducted technical interviews",
-        "Collaborated with product teams to deliver features ahead of schedule"
-      ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "Kubernetes", "PostgreSQL"],
-      achievements: [
-        "Increased application performance by 40%",
-        "Reduced server costs by 25%",
-        "Led team of 6 developers"
-      ]
-    },
-    {
-      company: "StartupXYZ",
-      position: "Full Stack Developer",
-      location: "New York, NY",
-      period: "2020 - 2022",
-      type: "Full-time",
-      description: [
-        "Built and scaled web applications from MVP to production",
-        "Developed RESTful APIs and GraphQL endpoints",
-        "Implemented real-time features using WebSocket technology",
-        "Collaborated with design team to create pixel-perfect UIs"
-      ],
-      technologies: ["Vue.js", "Express", "MongoDB", "Redis", "Socket.io", "Stripe"],
-      achievements: [
-        "Delivered 15+ features",
-        "Improved user engagement by 35%",
-        "Zero critical bugs in production"
-      ]
-    },
-    {
-      company: "Digital Agency Pro",
-      position: "Frontend Developer",
-      location: "Los Angeles, CA",
-      period: "2019 - 2020",
-      type: "Contract",
-      description: [
-        "Developed responsive websites for various clients",
-        "Optimized applications for search engines and performance",
-        "Integrated third-party APIs and payment systems",
-        "Maintained and updated legacy codebases"
-      ],
-      technologies: ["React", "Next.js", "Gatsby", "Tailwind CSS", "WordPress", "PHP"],
-      achievements: [
-        "Completed 20+ client projects",
-        "Achieved 95+ Lighthouse scores",
-        "100% client satisfaction rate"
-      ]
-    },
-    {
-      company: "Freelance",
-      position: "Web Developer",
+      company: "Cisco",
+      position: "Campus Ambassador",
       location: "Remote",
-      period: "2018 - 2019",
-      type: "Freelance",
+      period: "May 2023 - December 2024",
+      type: "Part-time",
       description: [
-        "Worked with small businesses to establish online presence",
-        "Created custom websites and e-commerce solutions",
-        "Provided ongoing maintenance and support",
-        "Built relationships with long-term clients"
+        "Served as a liaison for Cisco, organizing outreach campaigns and increasing student participation by 40%",
+        "Promoted Cisco technologies and certifications among university students",
+        "Organized technical workshops and networking events",
+        "Built strong relationships between Cisco and the student community"
       ],
-      technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "MySQL"],
+      technologies: ["Networking", "Cloud Technologies", "Cisco Platforms", "Event Management"],
       achievements: [
-        "Built 30+ websites",
-        "Generated $150K+ revenue",
-        "Maintained 4.9/5 rating"
+        "Increased participation by 40%",
+        "Organized 10+ events",
+        "Built strong network"
+      ]
+    },
+    {
+      company: "CodeChef-BU",
+      position: "Co Tech-Head",
+      location: "Bennett University, Noida",
+      period: "September 2023 - August 2024",
+      type: "Leadership Role",
+      description: [
+        "Led technical events and workshops for 200+ participants to enhance coding skills",
+        "Organized competitive programming contests and hackathons",
+        "Mentored junior students in algorithmic problem solving",
+        "Coordinated with industry professionals for guest lectures"
+      ],
+      technologies: ["C++", "Java", "JavaScript", "Problem Solving", "Event Management"],
+      achievements: [
+        "Led 200+ participants",
+        "Organized 15+ workshops",
+        "Improved coding proficiency"
       ]
     }
   ];
@@ -198,20 +160,20 @@ const Experience = () => {
               new opportunities and challenges.
             </p>
             <div className="flex justify-center gap-4">
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 bg-gradient-primary text-primary-foreground rounded-xl font-semibold hover-glow transition-smooth shadow-button"
-              >
-                Download Resume
-              </a>
-              <a
-                href="mailto:your.email@example.com"
-                className="px-6 py-3 glass border border-glass-border rounded-xl font-semibold hover:border-primary/50 transition-smooth"
-              >
-                Get In Touch
-              </a>
+            <a
+              href="https://rohan11.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-gradient-primary text-primary-foreground rounded-xl font-semibold hover-glow transition-smooth shadow-button"
+            >
+              View Portfolio
+            </a>
+            <a
+              href="mailto:rohandabas1027@gmail.com"
+              className="px-6 py-3 glass border border-glass-border rounded-xl font-semibold hover:border-primary/50 transition-smooth"
+            >
+              Get In Touch
+            </a>
             </div>
           </div>
         </div>

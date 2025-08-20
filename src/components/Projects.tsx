@@ -4,44 +4,34 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A modern, full-stack e-commerce solution with real-time inventory, payment processing, and advanced analytics. Built with microservices architecture for scalability.",
+      title: "StudyMate - AI Learning Platform",
+      description: "Built a full-stack application with React.js frontend and Supabase backend, implementing secure user authentication and real-time data synchronization. Integrated Gemini AI API to generate personalized SMART study plans and fetch YouTube video data for enhanced learning content.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redis", "Docker"],
-      github: "https://github.com",
-      live: "https://example.com",
+      technologies: ["React", "Tailwind CSS", "Supabase", "ClerkAuth", "Gemini API", "YouTube API"],
+      github: "https://github.com/Rohandabas/studymate",
+      live: "https://yrstudymate.netlify.app/",
       featured: true,
-      stats: { users: "10K+", performance: "98", uptime: "99.9%" }
+      stats: { period: "Jan 2025", features: "AI Plans", security: "RLS" }
     },
     {
-      title: "AI-Powered Analytics Dashboard",
-      description: "An intelligent dashboard that provides real-time insights using machine learning algorithms. Features predictive analytics and automated reporting.",
+      title: "GoalMind AI - Goal Management System",
+      description: "Built a full-stack application with React.js frontend and Express.js backend, implementing a goal tracking system for 500+ users. Integrated Gemini AI API to generate personalized SMART goal recommendations and weekly planning schedules.",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Python", "TensorFlow", "PostgreSQL", "Recharts"],
-      github: "https://github.com",
-      live: "https://example.com",
+      technologies: ["React", "Tailwind CSS", "Express.js", "ClerkAuth", "Gemini API"],
+      github: "https://github.com/Rohandabas/GOALMIND-AI",
+      live: "https://goalmindai.netlify.app/",
       featured: true,
-      stats: { accuracy: "94%", data: "1M+", speed: "< 100ms" }
+      stats: { users: "500+", period: "Dec 2024", ai: "SMART Goals" }
     },
     {
-      title: "Social Media App",
-      description: "A cross-platform social media application with real-time messaging, content sharing, and advanced privacy controls.",
+      title: "Code-Edi - Web Development IDE",
+      description: "Built an interactive web-based IDE for practicing HTML, CSS, and JavaScript fundamentals with real-time code execution, file management, note-taking, and coding quizzes. Containerized using Docker and deployed on AWS EC2.",
       image: "/api/placeholder/600/400",
-      technologies: ["React Native", "GraphQL", "AWS", "Socket.io", "TypeScript"],
-      github: "https://github.com",
-      live: "https://example.com",
+      technologies: ["HTML", "CSS", "JavaScript", "Docker", "AWS EC2"],
+      github: "https://github.com/Rohandabas/CODE-EDI-",
+      live: "https://code-edi.netlify.app/",
       featured: false,
-      stats: { downloads: "50K+", rating: "4.8", reviews: "2K+" }
-    },
-    {
-      title: "Blockchain Voting System",
-      description: "A secure, transparent voting system built on blockchain technology. Ensures vote integrity and provides real-time results.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-      github: "https://github.com",
-      live: "https://example.com",
-      featured: false,
-      stats: { transactions: "100K+", security: "100%", votes: "25K+" }
+      stats: { period: "May 2024", deployment: "AWS EC2", features: "Real-time" }
     }
   ];
 

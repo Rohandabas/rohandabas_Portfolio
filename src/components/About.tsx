@@ -2,10 +2,10 @@ import { Code2, Palette, Rocket, Users } from "lucide-react";
 
 const About = () => {
   const skills = [
-    { name: "Frontend Development", level: 95, icon: Code2 },
-    { name: "Backend Development", level: 90, icon: Rocket },
-    { name: "UI/UX Design", level: 85, icon: Palette },
-    { name: "Team Leadership", level: 80, icon: Users }
+    { name: "React.js/Frontend", level: 90, icon: Code2 },
+    { name: "Node.js/Backend", level: 85, icon: Rocket },
+    { name: "AI Integration", level: 82, icon: Palette },
+    { name: "Cloud & DevOps", level: 80, icon: Users }
   ];
 
   return (
@@ -16,7 +16,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate developer with 5+ years of experience creating digital solutions that make a difference
+            Passionate Computer Science Engineering student with a 9.25 GPA, building innovative AI-powered solutions
           </p>
         </div>
 
@@ -26,18 +26,19 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
               <p className="leading-relaxed">
-                I started my journey in web development 5 years ago, driven by a passion for creating 
-                beautiful and functional digital experiences. What began as curiosity about how websites 
-                work has evolved into a deep expertise in modern web technologies.
+                I'm a passionate Computer Science Engineering student at Bennett University with a 9.25 GPA, 
+                specializing in full-stack development and AI integration. My journey started with curiosity 
+                about technology and evolved into building innovative solutions that solve real-world problems.
               </p>
               <p className="leading-relaxed">
-                I specialize in building scalable web applications using React, TypeScript, and Node.js. 
-                My approach combines technical excellence with user-centered design, ensuring that every 
-                project not only works flawlessly but also provides an exceptional user experience.
+                As a Campus Ambassador for Cisco and Co Tech-Head at CodeChef-BU, I've led technical workshops 
+                for 200+ participants and organized outreach campaigns. I'm AWS Certified and passionate about 
+                cloud technologies, AI integration, and creating impactful applications.
               </p>
               <p className="leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-                projects, or sharing knowledge with the developer community through blogs and mentoring.
+                When I'm not coding, you'll find me exploring new AI technologies, working on competitive 
+                programming challenges, or contributing to open-source projects that push the boundaries 
+                of what's possible with modern web development.
               </p>
             </div>
           </div>
@@ -76,9 +77,9 @@ const About = () => {
             <div className="mt-12 p-6 glass rounded-2xl border border-glass-border">
               <h4 className="text-lg font-semibold mb-4">Current Focus</h4>
               <p className="text-muted-foreground">
-                Currently diving deep into AI/ML integration in web applications, exploring the latest 
-                in React Server Components, and contributing to open-source projects that push the 
-                boundaries of web development.
+                Currently pursuing B.Tech in Computer Science at Bennett University, diving deep into 
+                AI/ML integration in web applications, exploring cloud technologies with AWS certifications, 
+                and building full-stack solutions that make a real impact.
               </p>
             </div>
           </div>

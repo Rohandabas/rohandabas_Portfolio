@@ -16,8 +16,8 @@ const TechStack = () => {
       icon: Code2,
       color: "from-blue-500 to-cyan-500",
       technologies: [
-        "React", "Next.js", "TypeScript", "Vue.js", 
-        "Tailwind CSS", "Framer Motion", "Three.js", "Webpack"
+        "React.js", "JavaScript", "HTML", "CSS", 
+        "Tailwind CSS", "TypeScript", "Responsive Design", "SPA"
       ]
     },
     {
@@ -25,26 +25,26 @@ const TechStack = () => {
       icon: Server,
       color: "from-green-500 to-emerald-500",
       technologies: [
-        "Node.js", "Express", "NestJS", "Python", 
-        "Django", "FastAPI", "GraphQL", "REST APIs"
+        "Node.js", "Express.js", "REST APIs", "MySQL", 
+        "Supabase", "Database Design", "Server Architecture", "Authentication"
       ]
     },
     {
-      category: "Database",
+      category: "Programming",
       icon: Database,
       color: "from-purple-500 to-violet-500",
       technologies: [
-        "PostgreSQL", "MongoDB", "Redis", "Supabase", 
-        "Prisma", "MySQL", "Firebase", "Elasticsearch"
+        "C++", "Java", "JavaScript", "Data Structures", 
+        "Algorithms", "OOP", "Problem Solving", "Competitive Programming"
       ]
     },
     {
-      category: "Design",
+      category: "AI Integration",
       icon: Palette,
       color: "from-pink-500 to-rose-500",
       technologies: [
-        "Figma", "Adobe XD", "Photoshop", "Illustrator", 
-        "Sketch", "Principle", "After Effects", "Blender"
+        "Gemini AI API", "YouTube API", "AI-Powered Features", "Machine Learning", 
+        "Natural Language Processing", "API Integration", "Smart Recommendations", "Data Processing"
       ]
     },
     {
@@ -52,35 +52,35 @@ const TechStack = () => {
       icon: Cloud,
       color: "from-orange-500 to-yellow-500",
       technologies: [
-        "AWS", "Vercel", "Docker", "Kubernetes", 
-        "GitHub Actions", "Terraform", "Netlify", "DigitalOcean"
+        "AWS EC2", "AWS S3", "AWS Lambda", "AWS IAM", 
+        "Docker", "Cloud Deployment", "Infrastructure", "AWS VPC"
       ]
     },
     {
-      category: "Mobile",
+      category: "Authentication",
       icon: Smartphone,
       color: "from-indigo-500 to-blue-500",
       technologies: [
-        "React Native", "Flutter", "Expo", "Swift", 
-        "Kotlin", "Ionic", "Cordova", "PWA"
+        "ClerkAuth", "Supabase Auth", "Row-Level Security", "JWT", 
+        "OAuth", "User Management", "Session Handling", "Security"
       ]
     },
     {
-      category: "Tools & Others",
+      category: "Tools & Version Control",
       icon: GitBranch,
       color: "from-gray-500 to-slate-500",
       technologies: [
-        "Git", "GitHub", "VSCode", "Postman", 
-        "Jira", "Slack", "Linear", "Notion"
+        "Git", "GitHub", "VSCode", "Project Management", 
+        "Collaboration", "Code Review", "Version Control", "Documentation"
       ]
     },
     {
-      category: "Performance",
+      category: "Deployment",
       icon: Zap,
       color: "from-yellow-500 to-amber-500",
       technologies: [
-        "Lighthouse", "WebVitals", "Bundle Analyzer", "Sentry", 
-        "New Relic", "DataDog", "Performance API", "Web Workers"
+        "Netlify", "Vercel", "AWS EC2", "Domain Management", 
+        "CI/CD", "Production Deployment", "Performance Optimization", "Monitoring"
       ]
     }
   ];
@@ -151,7 +151,7 @@ const TechStack = () => {
               frameworks, and methodologies to stay at the forefront of web development.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {["AI/ML", "Web3", "Blockchain", "AR/VR", "IoT", "Quantum Computing"].map((trend) => (
+              {["AWS Certifications", "Cisco Technologies", "Competitive Programming", "Open Source", "Leadership", "AI Innovation"].map((trend) => (
                 <span
                   key={trend}
                   className="px-4 py-2 glass rounded-full text-sm border border-glass-border hover:border-primary/50 transition-smooth font-mono"

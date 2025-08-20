@@ -38,19 +38,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "rohandabas1027@gmail.com",
+      href: "mailto:rohandabas1027@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91-766-813-0244",
+      href: "tel:+917668130244"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Noida, Uttar Pradesh",
       href: "#"
     }
   ];
@@ -59,20 +59,20 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/Rohandabas",
       color: "hover:text-gray-400"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/rohan-dabas1/",
       color: "hover:text-blue-400"
     },
     {
       icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-sky-400"
+      label: "Portfolio",
+      href: "https://rohan11.vercel.app/",
+      color: "hover:text-purple-400"
     }
   ];
 
