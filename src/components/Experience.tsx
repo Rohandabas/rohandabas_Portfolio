@@ -151,32 +151,6 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <div className="glass rounded-2xl p-8 border border-glass-border max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">Let's Work Together</h3>
-            <p className="text-muted-foreground mb-6">
-              Ready to bring your next project to life? I'm always interested in discussing 
-              new opportunities and challenges.
-            </p>
-            <div className="flex justify-center gap-4">
-            <a
-              href="https://rohan11.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-gradient-primary text-primary-foreground rounded-xl font-semibold hover-glow transition-smooth shadow-button"
-            >
-              View Portfolio
-            </a>
-            <a
-              href="mailto:rohandabas1027@gmail.com"
-              className="px-6 py-3 glass border border-glass-border rounded-xl font-semibold hover:border-primary/50 transition-smooth"
-            >
-              Get In Touch
-            </a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
