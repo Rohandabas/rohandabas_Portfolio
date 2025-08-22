@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Code2 } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -72,6 +72,14 @@ const Hero = () => {
               className="p-3 glass rounded-2xl hover-glow transition-smooth hover:bg-gradient-primary group"
             >
               <Mail className="w-6 h-6 group-hover:text-primary-foreground transition-smooth" />
+            </a>
+            <a 
+              href="https://leetcode.com/u/RohanDabas/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 glass rounded-2xl hover-glow transition-smooth hover:bg-gradient-primary group"
+            >
+              <Code2 className="w-6 h-6 group-hover:text-primary-foreground transition-smooth" />
             </a>
           </div>
         </div>
