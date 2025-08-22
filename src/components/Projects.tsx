@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "StudyMate - AI Learning Platform",
       description: "Built a full-stack application with React.js frontend and Supabase backend, implementing secure user authentication and real-time data synchronization. Integrated Gemini AI API to generate personalized SMART study plans and fetch YouTube video data for enhanced learning content.",
-      image: "/api/placeholder/600/400",
+      image: "/lovable-uploads/ede6b396-d973-4571-ab97-60de9a68efc1.png",
       technologies: ["React", "Tailwind CSS", "Supabase", "ClerkAuth", "Gemini API", "YouTube API"],
       github: "https://github.com/Rohandabas/studymate",
       live: "https://yrstudymate.netlify.app/",
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "GoalMind AI - Goal Management System",
       description: "Built a full-stack application with React.js frontend and Express.js backend, implementing a goal tracking system for 500+ users. Integrated Gemini AI API to generate personalized SMART goal recommendations and weekly planning schedules.",
-      image: "/api/placeholder/600/400",
+      image: "/lovable-uploads/3db6e248-dd4b-4511-9b91-2d6b419bf1a0.png",
       technologies: ["React", "Tailwind CSS", "Express.js", "ClerkAuth", "Gemini API"],
       github: "https://github.com/Rohandabas/GOALMIND-AI",
       live: "https://goalmindai.netlify.app/",
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "Code-Edi - Web Development IDE",
       description: "Built an interactive web-based IDE for practicing HTML, CSS, and JavaScript fundamentals with real-time code execution, file management, note-taking, and coding quizzes. Containerized using Docker and deployed on AWS EC2.",
-      image: "/api/placeholder/600/400",
+      image: "/lovable-uploads/f7fc6201-620b-4811-b146-ab1c589bfe89.png",
       technologies: ["HTML", "CSS", "JavaScript", "Docker", "AWS EC2"],
       github: "https://github.com/Rohandabas/CODE-EDI-",
       live: "https://code-edi.netlify.app/",
@@ -59,16 +59,11 @@ const Projects = () => {
               <div className={`${project.featured ? '' : 'max-w-2xl mx-auto'}`}>
                 {/* Project Image */}
                 <div className="relative overflow-hidden rounded-2xl mb-6 lg:mb-0">
-                  <div className="aspect-video bg-gradient-subtle glass border border-glass-border rounded-2xl flex items-center justify-center group-hover:scale-105 transition-smooth">
-                    <div className="text-center">
-                      <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-4">
-                        <span className="text-2xl font-bold text-primary-foreground">
-                          {project.title.charAt(0)}
-                        </span>
-                      </div>
-                      <p className="text-muted-foreground">Project Preview</p>
-                    </div>
-                  </div>
+                  <img 
+                    src={project.image} 
+                    alt={`${project.title} screenshot`}
+                    className="w-full h-full object-cover aspect-video group-hover:scale-105 transition-smooth rounded-2xl"
+                  />
                   <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-10 transition-smooth rounded-2xl" />
                 </div>
               </div>
