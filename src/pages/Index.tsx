@@ -5,6 +5,7 @@ import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Certifications from "@/components/Certifications";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
@@ -17,13 +18,14 @@ const Index = () => {
         <Projects />
         <Experience />
         <Certifications />
+        <Contact />
       </main>
       
       {/* Footer */}
       <footer className="py-8 border-t border-glass-border">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground">
-            © 2024 Your Name. Built with React, TypeScript, and lots of ☕
+            © 2024 Rohan Dabas. Built with React, TypeScript, and lots of ☕
           </p>
         </div>
       </footer>
