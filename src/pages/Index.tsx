@@ -4,7 +4,7 @@ import About from "@/components/About";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
-import Contact from "@/components/Contact";
+import Certifications from "@/components/Certifications";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
         <TechStack />
         <Projects />
         <Experience />
-        <Contact />
+        <Certifications />
       </main>
       
       {/* Footer */}
