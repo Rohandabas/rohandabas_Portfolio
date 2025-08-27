@@ -3,6 +3,25 @@ import { Building2, Calendar, MapPin, Award } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      company: "Times Network",
+      position: "Full Stack Developer",
+      location: "Mumbai, India",
+      period: "January 2024 - Present",
+      type: "Full-time",
+      description: [
+        "Worked on Sociopress, a real-world product by Times Network, enhancing features and fixing critical bugs",
+        "Improved platform efficiency by 20% using React and JavaScript optimization techniques",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions",
+        "Implemented modern web development practices and maintained code quality standards"
+      ],
+      technologies: ["React", "JavaScript", "Node.js", "Full Stack Development", "Performance Optimization"],
+      achievements: [
+        "Improved efficiency by 20%",
+        "Enhanced product features",
+        "Fixed critical bugs"
+      ]
+    },
+    {
       company: "Cisco",
       position: "Campus Ambassador",
       location: "Remote",
